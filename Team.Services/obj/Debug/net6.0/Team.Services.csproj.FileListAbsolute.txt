@@ -1,0 +1,15 @@
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\bin\Debug\net6.0\Team.Services.deps.json
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\bin\Debug\net6.0\Team.Services.dll
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\bin\Debug\net6.0\Team.Services.pdb
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\bin\Debug\net6.0\Team.Data.dll
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\bin\Debug\net6.0\Team.Data.pdb
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\obj\Debug\net6.0\Team.Services.csproj.AssemblyReference.cache
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\obj\Debug\net6.0\Team.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\obj\Debug\net6.0\Team.Services.AssemblyInfoInputs.cache
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\obj\Debug\net6.0\Team.Services.AssemblyInfo.cs
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\obj\Debug\net6.0\Team.Services.csproj.CoreCompileInputs.cache
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\obj\Debug\net6.0\Team.Services.csproj.CopyComplete
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\obj\Debug\net6.0\Team.Services.dll
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\obj\Debug\net6.0\refint\Team.Services.dll
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\obj\Debug\net6.0\Team.Services.pdb
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Services\obj\Debug\net6.0\ref\Team.Services.dll

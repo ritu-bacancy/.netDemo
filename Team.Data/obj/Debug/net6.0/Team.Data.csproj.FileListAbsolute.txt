@@ -1,0 +1,14 @@
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\bin\Debug\net6.0\Team.Data.deps.json
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\bin\Debug\net6.0\Team.Data.runtimeconfig.json
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\bin\Debug\net6.0\Team.Data.dll
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\bin\Debug\net6.0\Team.Data.pdb
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\obj\Debug\net6.0\Team.Data.csproj.AssemblyReference.cache
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\obj\Debug\net6.0\Team.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\obj\Debug\net6.0\Team.Data.AssemblyInfoInputs.cache
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\obj\Debug\net6.0\Team.Data.AssemblyInfo.cs
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\obj\Debug\net6.0\Team.Data.csproj.CoreCompileInputs.cache
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\obj\Debug\net6.0\Team.Data.dll
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\obj\Debug\net6.0\refint\Team.Data.dll
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\obj\Debug\net6.0\Team.Data.pdb
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\obj\Debug\net6.0\Team.Data.genruntimeconfig.cache
+C:\Users\Bacancy\source\repos\DemoPractice\Team.Data\obj\Debug\net6.0\ref\Team.Data.dll

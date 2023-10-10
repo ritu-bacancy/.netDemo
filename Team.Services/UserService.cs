@@ -19,7 +19,28 @@ namespace Team.Services
 
         public int AddUser(User userInfo)
         {
-            try
+            var userCount = _teamContext.Users.Select(x => x.Id).ToList();
+            if (userCount.Count > 15)
+            {
+                return 2;
+            }
+            var isUserExist = _teamContext.Users.Where(x => x.Email.Contains(userInfo.Email)).FirstOrDefault();
+            if(isUserExist != null)
+            {
+                return 3;
+            }
+            _teamContext.Users.Add(userInfo);
+            int res = _teamContext.SaveChanges();
+            if(res == 1)
+            {
+                return 1;
+            }else
+            {
+                return 0;
+
+            }
+
+            /*try
             {
                 var resCout = _teamContext.Users.Select(x => x.Id).ToList();
                 if (resCout.Count > 15)
@@ -55,7 +76,7 @@ namespace Team.Services
             {
 
                 throw;
-            }
+            }*/
         }
 
         public List<User> GetAllPlayer()
@@ -72,6 +93,44 @@ namespace Team.Services
                 throw;
             }
 
+        }
+
+        public int setAsCaptain(int playerId)
+        {
+            var player = _teamContext.Users.Find(playerId);
+            var ifCaptainExist = _teamContext.Users.Where(x => x.RoleId == 2).FirstOrDefault();
+            if (ifCaptainExist != null)
+            {
+                var existingCaptain = _teamContext.Users.Find(ifCaptainExist.Id);
+                existingCaptain.RoleId = 3;
+                _teamContext.Users.Update(existingCaptain);
+                _teamContext.SaveChanges();
+            }
+
+            player.RoleId = 2;
+            _teamContext.Users.Update(player);
+
+            var res = _teamContext.SaveChanges();
+
+            if(res == 1)
+            {
+                return 1;
+            }else
+            {
+                return 0;
+            }
+        }
+
+        public int selectTeam(int[] players)
+        {
+            var getPlayer = _teamContext.Users.Where(x => players.Contains(x.Id));
+            foreach (var player in getPlayer)
+            {
+                player.IsActiveMember = 'Y';
+            }
+
+            var res = _teamContext.SaveChanges();
+            return res;
         }
     }
 }

@@ -33,5 +33,20 @@ namespace Team.Services
 
 
         }
+
+        public int changePassword(string email, string password)
+        {
+            var player = _teamContext.Users.FirstOrDefault(x => x.Email == email);
+            player.Password = password;
+            _teamContext.Users.Update(player);
+            var res = _teamContext.SaveChanges();
+            if(res == 1)
+            {
+                return 1;
+            }else
+            {
+                return 0;
+            }
+        }
     }
 }

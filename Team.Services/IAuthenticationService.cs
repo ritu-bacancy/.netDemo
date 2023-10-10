@@ -11,5 +11,7 @@ namespace Team.Services
     {
         public User Login(LoginVM login);
 
+        public int changePassword(string username, string password);
+
     }
 }

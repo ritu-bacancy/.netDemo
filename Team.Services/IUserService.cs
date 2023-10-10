@@ -13,5 +13,9 @@ namespace Team.Services
 
         public List<User> GetAllPlayer();
 
+        public int setAsCaptain(int playerId);
+
+        public int selectTeam(int[] players);
+
     }
 }

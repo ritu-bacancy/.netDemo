@@ -48,6 +48,7 @@ namespace Team.Data.Model
         public string DOB { get; set; }
         public float? Height { get; set; }
         public float? Weight { get; set; }
+        public char IsActiveMember { get; set; } = 'N';
 
     }
 }

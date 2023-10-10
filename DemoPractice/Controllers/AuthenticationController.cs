@@ -56,5 +56,23 @@ namespace DemoPractice.Controllers
 
 
         }
+
+        [HttpPost("Change password")]
+        public IActionResult changePassword(string email, string password) 
+        {
+            var returnData = new Response<object>();
+            var res = _authenticationService.changePassword(email, password);
+            if(res == 1)
+            {
+                returnData.IsSuccess = true;
+                returnData.InfoMessage = "Password changed successfully.";
+                return Ok(returnData);
+            }else
+            {
+                returnData.IsSuccess = false;
+                returnData.InfoMessage = "Password not changed successfully.";
+                return Ok(returnData);
+            }
+        }
     }
 }

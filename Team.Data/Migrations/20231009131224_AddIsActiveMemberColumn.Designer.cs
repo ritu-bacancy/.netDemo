@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Team.Data.Model;
 
@@ -11,9 +12,10 @@ using Team.Data.Model;
 namespace Team.Data.Migrations
 {
     [DbContext(typeof(TeamContext))]
-    partial class TeamContextModelSnapshot : ModelSnapshot
+    [Migration("20231009131224_AddIsActiveMemberColumn")]
+    partial class AddIsActiveMemberColumn
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

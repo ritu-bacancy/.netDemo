@@ -9,7 +9,7 @@ namespace Team.Services
 {
     public interface IAuthenticationService
     {
-        public User Login(LoginVM login);
+        public UserDTO Login(LoginVM login);
 
         public int changePassword(string username, string password);
 

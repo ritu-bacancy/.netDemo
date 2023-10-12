@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Team.Data.Model;
 using Team.Services;
@@ -7,6 +8,7 @@ namespace DemoPractice.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UserController : ControllerBase
     {
         public readonly IUserService _iUserService;
@@ -80,8 +82,6 @@ namespace DemoPractice.Controllers
             var res = _iUserService.selectTeam(player);
             return res;
         }
-
-
 
 
 
